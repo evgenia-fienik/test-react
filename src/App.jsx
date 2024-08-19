@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import LoginForm from './LoginForm'
+import FeedbackForm from './FeedbackForm/FeedbackForm'
 import MyComponent from './MyComponent';
 import SearchBar from './SearchBar';
 import './App.css'
@@ -22,7 +22,7 @@ function App() {
     <div>
       <h1>Please login to your account!</h1>
       {/* Передаємо колбек як пропс в компонент LoginForm */}
-      <LoginForm onLogin={handleLogin} />
+      <FeedbackForm />
       <MyComponent />
       <SearchBar/>
       
